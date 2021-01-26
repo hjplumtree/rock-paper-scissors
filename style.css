@@ -1,0 +1,89 @@
+
+.container {
+  background: linear-gradient(
+    rgba(0, 0, 255, 0.15),
+    rgba(0, 0, 255, 0.15)
+  ), url('https://images.unsplash.com/photo-1485740112426-0c2549fa8c86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result {
+  margin-top: 5rem;
+  background: black;
+  min-height: 2rem;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  border: red solid 1px;
+  border-radius: 5px;
+}
+
+.score {
+  margin-top: 0.5rem;
+  background: #000;
+  min-width: 100px;
+  min-height: 1.5rem;
+  border-radius: 5px;
+  border: red solid 1px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.handsDisplay {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.showingArea {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 250px;
+  background: #f1f1f1;
+  font-size: 120px;
+}
+
+.selectionArea {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hands {
+  display: flex;
+}
+
+.selectionArea {
+  margin-top: 50px;
+}
+
+.pHand {
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  min-height: 70px;
+  min-width: 70px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.cHand {
+  min-height: 70px;
+  min-width: 70px;
+  margin: 10px;
+}
